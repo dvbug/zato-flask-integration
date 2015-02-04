@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <title>Zato-Flask Integration</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding:10px;
+        }
+
+        #info tr{
+            border-bottom:1px solid #999;
+        }
+
+        #info th {
+            border:1px solid #999;
+            background-color:#dde;
+            padding:9px;
+        }
+
+        #info td {
+            border-right:1px solid #999;
+            border-left:1px solid #999;
+            padding:14px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        Enter a customer's ID and their name will be returned.
+    </div>
+
+    <form action="." method="get" id="input-form">
+        {{ form.cust_id }}
+        <br/>
+        {{ form.client_type }}
+        <br/>
+        <input type="submit" value="Get customer" />
+    </form>
+
+    {% if 1 %}
+
+        <table id="info">
+          <tr>
+            <th>Response time</th>
+            <th>Correlation ID</th>
+            <th>Output</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+
+    {% endif %}
+
+</body>
+</html>

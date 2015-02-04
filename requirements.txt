@@ -1,0 +1,4 @@
+Flask==0.10.1
+flask-wtf==0.11
+zato-client==2.0.1.2
+zato-common==1.2.1
