@@ -40,7 +40,7 @@
         <input type="submit" value="Get customer" />
     </form>
 
-    {% if 1 %}
+    {% if response %}
 
         <table id="info">
           <tr>
@@ -49,9 +49,9 @@
             <th>Output</th>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>{{ time }} ms</td>
+            <td>{{ response.cid }}</td>
+            <td>{{ response.data.name }}</td>
           </tr>
         </table>
 
