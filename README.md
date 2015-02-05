@@ -1,4 +1,4 @@
-Sample app to demonstrate how to integrate Django applications with Zato.
+Sample app to demonstrate how to integrate Flask applications with Zato.
 
 Zato is a Python-based middleware platform and backend application server for ESB, SOA, REST, APIs and Cloud Integrations.
 
